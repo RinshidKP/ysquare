@@ -1,0 +1,16 @@
+.dashboard {
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    align-items: center;
+    justify-content: center; /* Center the charts horizontally */
+  }
+  
+  .chart-container {
+    display: inline-block; /* Display the chart containers inline */
+    width: 80%;
+  }
+  .table-container{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  

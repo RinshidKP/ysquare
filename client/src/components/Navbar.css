@@ -1,0 +1,35 @@
+.admin-nav-bar {
+    background-color: transparent;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px; 
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+  }
+  
+  .nav-link {
+    color: #cbd5e0;
+    text-decoration: none;
+    user-select: none;
+  }
+  
+  .nav-link:hover {
+    color: #f59e0b;
+  }
+  
+  .nav-link.highlight {
+    border-bottom: 2px solid #4299e1;
+  }
+  
+  .nav-link:hover.highlight {
+    color: #e2e8f0;
+  }
+  

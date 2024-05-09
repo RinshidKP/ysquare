@@ -1,0 +1,16 @@
+.line-plot-svg {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.axis-label {
+    font-size: 12px;
+    fill: #000;}
+
+.axis-line {
+    stroke: #000;
+}
+
+.grid-line {
+    stroke: #eee;
+}

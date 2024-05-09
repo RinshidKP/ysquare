@@ -1,0 +1,25 @@
+/* PieChart.css */
+.legend {
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    fill: #333; /* Setting fill for all legend items */
+    position: absolute; /* Position the legend */
+    bottom: 0px; /* Increase the distance from the bottom of the chart */
+    transform: translate(-50%, -10%); /* Center vertically and move back 10% of the legend's height */
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Add more spacing between legend items */
+  }
+  
+  .legend-item rect {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .legend-item text {
+    font-size: 12px; /* Adjust font size */
+  }
+  

@@ -1,0 +1,59 @@
+.book-table-container {
+  overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+  margin: 0 auto; /* Horizontally center the table within its container */
+  max-width: 80%; /* Ensure the table does not exceed the container's width */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.book-table {
+  width: max-content; /* Allow the table to expand beyond its container */
+  border-collapse: collapse; /* Collapse borders */
+  font-family: Arial, sans-serif;
+}
+
+.book-table th,
+.book-table td {
+  border: 1px solid #ddd; /* Add borders to table cells */
+  text-align: left; /* Align text to the left */
+  font-size: 8px; /* Set font size */
+  line-height: 1.5; /* Set line height */
+}
+
+.book-table th {
+  background-color: #f2f2f2; /* Add background color to table header */
+  font-weight: bold; /* Make table header text bold */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .book-table th,
+  .book-table td {
+    font-size: 12px; /* Reduce font size for smaller screens */
+  }
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+  
+  .pagination button {
+    margin: 5px;
+  }
+}
